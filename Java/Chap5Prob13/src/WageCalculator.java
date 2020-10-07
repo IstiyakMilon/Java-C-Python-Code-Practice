@@ -28,15 +28,15 @@ public class WageCalculator {
 		if(totalSales>=1.00 && totalSales<=99.99) {
 			totalWages=totalSales*0.05 + overTime*1.5*HOURLYWAGE +regularWorkHour*HOURLYWAGE;
 			
-			System.out.print("Total wage of the month is "+totalWages);
+			System.out.print("Total wage of the month is "+totalWages+"$");
 		} else if(totalSales>=100.00 && totalSales<=299.99) {
 			totalWages=totalSales*0.1 + overTime*1.5*HOURLYWAGE +regularWorkHour*HOURLYWAGE;
 			
-			System.out.print("Total wage of the month is "+totalWages);
+			System.out.print("Total wage of the month is "+totalWages+"$");
 		} else if(totalSales>=300.00) {
 			totalWages=totalSales*0.15 + overTime*1.5*HOURLYWAGE +regularWorkHour*HOURLYWAGE;
 			
-			System.out.print("Total wage of the month is "+totalWages);
+			System.out.print("Total wage of the month is "+totalWages +"$");
 		}
 
 	}
